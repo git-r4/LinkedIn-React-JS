@@ -1,0 +1,358 @@
+.navbarBox{
+  background-color: white;
+  width: 100%;
+  height: 52px;
+  top: 0;
+  position: fixed;
+  .navbarContainer{
+    display: flex;
+    justify-content: space-between;
+    .navbarBrand{
+      display: flex;
+      grid-column-gap: 20px;
+      justify-content: center;
+      align-items: center;
+      .linkdinLogo{
+        width: 35px;
+        height: 35px;
+        background-color: #0a66c2;
+        border-radius: 3px;
+        margin: 0 auto;
+        h1{
+          color: #fff;
+          font-size: 31px;
+          margin: 0 auto;
+          text-align: center;
+        }
+      }
+    }
+    .navbarMenu{
+      display: grid;
+      grid: auto / repeat(5, 80px) auto;
+      justify-content: center;
+      align-items: center;
+      .navLink{
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.6);
+        font-size: 12px;
+        position: relative;
+        &:hover{
+          color: rgba(0, 0, 0, 0.9);
+        }
+
+        &::before {
+          content: "";
+          position: absolute;
+          display: block;
+          width: 100%;
+          height: 2px;
+          bottom: 0;
+          left: 0;
+          background-color: #000;
+          transform: scaleX(0);
+          transition: transform 0.3s ease;
+        }
+        .navLinkText{
+          display: grid;
+          padding: 6px 0 0 0;
+          grid: 25px 20px 1px/ auto;
+          justify-content: center;
+          align-items: center;
+          .navLinkIcon{
+            font-size: 22px;
+            margin: 0 auto;
+          }
+        }
+      }
+      .active{
+        color: rgba(0, 0, 0, 0.9) !important;
+        &::before{
+          transform: scaleX(1) !important;
+        }
+      }
+
+      .navbarMenuSecond{
+        display: grid;
+        grid: auto / 80px 5px 80px;
+        .refForDDNav{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          button{
+            color: rgba(0, 0, 0, 0.6);
+            border: none;
+            background: transparent;
+            margin: 0;
+            padding: 0;
+            cursor: pointer;
+            outline: none;
+            .twoGridBox{
+              display: grid;
+              padding: 3px 0 0 0;
+              grid: 25px 20px / auto;
+              justify-content: center;
+              align-items: center;
+              .imgBox{
+                width: 22px;
+                height: 22px;
+                margin: 0 auto;
+                img{
+                  width: 100%;
+                  height: 100%;
+                  border-radius: 50%;
+                }
+              }
+              .iconBox{
+                margin: 0 auto;
+                .navIcon{
+                  font-size: 22px;
+
+                }
+              }
+              .textBox{
+                span{
+                  font-size: 12px;
+                }
+                .downIcon {
+                  font-size: 12px;
+                  margin-left: 5px;
+                }
+              }
+            }
+            &:hover{
+              color: rgba(0, 0, 0, 0.9);
+            }
+          }
+          //dropdown
+          .meDropdown{
+            background-color: #fff;
+            position: absolute;
+            top: 58px;
+            width: 250px;
+            transform: translateX(-36%);
+            padding: 1rem;
+            overflow: hidden;
+            border-radius: 10px 0 10px 10px;
+            &_line{
+              width: 100%;
+              height: 1px;
+              margin: 10px 0;
+              background-color: rgba(0, 0, 0, 0.08);
+            }
+            &_account{
+              &_infoBox{
+                display: flex;
+                grid-column-gap: 15px;
+                align-items: center;
+                &_img{
+                  width:50px;
+                  height:50px;
+                  img{
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                  }
+                }
+                &_nameDescr{
+                  color: rgba(0, 0, 0, 0.8);
+                  h4{
+                    margin: 0;
+                    font-weight: 500;
+                  }
+                  span{
+                    font-size: 14px;
+                  }
+                }
+              }
+              &_infoBox_btn{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 20px;
+                border: 1px solid #0d6efd;
+                border-radius: 30px;
+                margin-top: 10px;
+                a{
+                  color: #0d6efd;
+                  width: 100%;
+                  text-align: center;
+                  span{
+                    font-size: 14px;
+                    font-weight: 500;
+                  }
+                }
+              }
+              &_infoBox_btn:hover{
+                background-color: rgba(13, 110, 253, 0.08);
+              }
+            }
+            &_account_setting{
+              h4{
+                margin: 0 0 10px 0;
+                font-weight: 500;
+              }
+              span{
+                font-size: 14px;
+                color: rgba(0, 0, 0, 0.6);
+              }
+            }
+            &_manage{
+              h4{
+                margin: 0 0 10px 0;
+                font-weight: 500;
+              }
+              span{
+                font-size: 14px;
+                color: rgba(0, 0, 0, 0.6);
+              }
+            }
+            &_signOut{
+              span{
+                font-size: 14px;
+                color: rgba(0, 0, 0, 0.6);
+              }
+            }
+          }
+          .overflow{
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.3);
+            position: fixed;
+            top: 52px;
+            right: 0;
+            bottom: 0;
+            z-index: 100;
+            transition: 650ms;
+          }
+          .overflow_hide{
+            display: none;
+            transition: 250ms;
+          }
+          .workMenu{
+            background-color: #fff;
+            position: fixed;
+            top: 53px;
+            width: 320px;
+            height: 100%;
+            right: -100%;
+            transition: 850ms;
+            padding: 1rem;
+            z-index: 100;
+            border-radius: 5px 0 0 0;
+            .menuInner{
+              display: grid;
+              grid: repeat(3, auto) / auto;
+              grid-row-gap: 30px;
+              width: 100%;
+              &_closeBtn{
+                width: 100%;
+                height: 20px;
+                display: flex;
+                justify-content: flex-end;
+                button{
+                  .closeIcon{
+                    font-size: 20px;
+                  }
+                }
+              }
+              &_box{
+                border: 1px solid rgba(0, 0, 0, 0.09);
+                border-radius: 10px;
+                padding: 1rem;
+                &_headerTxt{
+                  h4{
+                    font-size: 16px;
+                    font-weight: 400;
+                    margin: 0 0 20px 0;
+                    color: rgba(0, 0, 0, 0.7);
+                  }
+                  border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+                  margin-bottom: 20px;
+                }
+                &_iconBox{
+                  display: grid;
+                  grid: repeat(2, 80px) / repeat(4, auto);
+                  grid-row-gap: 20px;
+                  width: 200px;
+                  .everyProduct{
+                    width: 100%;
+                    height: 100%;
+                    text-align: center;
+                    display: grid;
+                    justify-content: center;
+                    .navIconsBox{
+                      width: 70px;
+                      height: 85px;
+                      .iconBox{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 40px;
+                        height: 40px;
+                        border: 1px solid rgba(0, 0, 0, 0.08);
+                        border-radius: 5px;
+                        margin: 0 auto;
+                        .icn{
+                          color: #0a66c2;
+                          font-size: 22px;
+                        }
+                      }
+                      .iconBox:hover{
+                        -webkit-box-shadow: 0px 0px 8px -5px rgba(0,0,0,0.75);
+                        -moz-box-shadow: 0px 0px 8px -5px rgba(0,0,0,0.75);
+                        box-shadow: 0px 0px 8px -5px rgba(0,0,0,0.75);
+                      }
+                      span{
+                        margin-top: 5px;
+                        font-size: 12px;
+                        font-weight: 500;
+                        color: rgba(0, 0, 0, 0.6);
+                      }
+                    }
+                  }
+                }
+                .menuInner_box_services{
+                  div{
+                    margin: 10px 0;
+                    h5{
+                      font-size: 16px;
+                      font-weight: 500;
+                      margin: 0;
+                      color: rgba(0, 0, 0, 0.7);
+                    }
+                    span{
+                      font-size: 12px;
+                      font-weight: 500;
+                      color: rgba(0, 0, 0, 0.4);
+                    }
+                  }
+                }
+                &_createPage{
+                  border-top: 1px solid rgba(0, 0, 0, 0.09);
+                  h4{
+                    margin: 10px 0 0 0;
+                    font-size: 16px;
+                    font-weight: 500;
+                    color: rgba(0, 0, 0, 0.7);
+                  }
+                }
+              }
+            }
+          }
+          .activeNav{
+            right: 0;
+            transition: 250ms;
+          }
+        }
+
+        .verticalLine{
+          width: 1px;
+          height: 100%;
+          background-color: rgba(0, 0, 0, 0.08);
+        }
+      }
+    }
+
+  }
+}

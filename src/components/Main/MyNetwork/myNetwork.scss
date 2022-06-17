@@ -1,0 +1,258 @@
+.myNetwork{
+  margin-top: 80px;
+  h4, span{
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+  }
+  a{
+    color: rgba(0, 0, 0, 0.6);
+  }
+}
+
+.manageMyNetwork{
+  position: sticky;
+  top: 80px;
+  -webkit-box-shadow: 0px 0px 8px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 8px -5px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 8px -5px rgba(0,0,0,0.75);
+  display: grid;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  &_header{
+    padding: 15px 20px;
+    h4{
+      color: rgba(0, 0, 0, 0.7);
+    }
+  }
+  &_line{
+    height: 1px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.06);
+    margin: 0 0 10px 0;
+  }
+  &_components{
+    display: grid;
+    transition: height 0.15s ease-out;
+    overflow: hidden;
+    a{
+      padding: 10px 0;
+      .every_component{
+        display: flex;
+        align-items: center;
+        grid-column-gap: 10px;
+        padding: 0 20px;
+        &_icon{
+          width: 20px;
+          height: 20px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        span{
+          font-size: 16px;
+        }
+      }
+    }
+    a:hover{
+      background-color: rgba(0, 0, 0, 0.06);
+    }
+  }
+  .hideCompo{
+    transition: height 0.25s ease-in;
+    height: 45px;
+  }
+
+  &_showBtn{
+    padding: 0 20px 10px 20px;
+    button{
+      font-size: 14px;
+      color: rgba(0, 0, 0, 0.7);
+      display: flex;
+      grid-column-gap: 5px;
+      align-items: center;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    button:hover{
+      background-color: rgba(0, 0, 0, 0.06);
+    }
+  }
+  //adv----------------
+  .advertisement{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+
+    }
+  }
+  //Linkedin information
+  .global{
+    padding: 15px;
+    &_content{
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      div{
+        display: flex;
+        grid-column-gap: 20px;
+        justify-content: center;
+        a{
+          font-family: 'Titillium Web', sans-serif;
+          color: rgba(0, 0, 0, 0.6);
+          font-size: 14px;
+        }
+        a:hover{
+          color: #0a66c2;
+          text-decoration: underline;
+        }
+      }
+    }
+    &_copyright{
+      margin-top: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      grid-column-gap: 5px;
+      color: rgba(0, 0, 0, 0.6);
+      font-family: 'Titillium Web', sans-serif;
+      font-size: 14px;
+      div{
+        display: flex;
+        align-items: center;
+        grid-column-gap: 2px;
+        h4{
+          color: #0a66c2;
+          font-weight: 700;
+          font-size: 15px;
+        }
+        span{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 15px;
+          height: 15px;
+          border-radius: 2px;
+          background-color: #0a66c2;
+          color: white;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}
+//mynetwork users
+.invitations{
+  -webkit-box-shadow: 0px 0px 8px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 8px -5px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 8px -5px rgba(0,0,0,0.75);
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  button{
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+  }
+  button:hover{
+    background-color: rgba(0, 0, 0, 0.06);
+  }
+}
+//people
+.peopleRecommended{
+  -webkit-box-shadow: 0px 0px 8px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 8px -5px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 8px -5px rgba(0,0,0,0.75);
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 20px 0;
+  &_seeAll{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    button{
+      cursor: pointer;
+      background: none;
+      border: none;
+      color: rgba(0, 0, 0, 0.6);
+      border-radius: 5px;
+    }
+    button:hover{
+      background-color: rgba(0, 0, 0, 0.06);
+    }
+  }
+  .peopleRecommended_people{
+    padding: 20px;
+    .styleForCol{
+      margin: 0 0 15px 0;
+    }
+    .everyUser{
+      border-radius: 10px;
+      border: 1px solid rgba(0, 0, 0, 0.06);
+      display: grid;
+      grid: 20px 110px 70px 50px / auto;
+      &_backImg{
+        background-color: rgba(0, 0, 0, 0.06);
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        height: 50px;
+      }
+      &_img{
+        margin: 0 auto;
+        img{
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+        }
+      }
+      &_info{
+        margin: 0 auto;
+        h4{
+          color: rgba(0, 0, 0, 0.8);
+        }
+        span{
+          display: flex;
+          justify-content: center;
+          color: rgba(0, 0, 0, 0.6);
+          font-size: 14px;
+        }
+      }
+      &_followBtn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        button{
+          font-family: 'Titillium Web', sans-serif;
+          font-weight: 700;
+          font-size: 14px;
+          width: 130px;
+          height: 35px;
+          border-radius: 30px;
+          border: 1px solid #0a66c2;
+          color: #0a66c2;
+          background: none;
+          cursor: pointer;
+        }
+        button:hover{
+          background-color: rgba(10, 102, 194, 0.08);
+          border: 2px solid #0a66c2;
+        }
+      }
+    }
+  }
+}

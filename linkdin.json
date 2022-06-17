@@ -1,0 +1,292 @@
+{
+  "search": [
+    {
+      "name": "Smith"
+    },
+    {
+      "name": "Johnson"
+    },
+    {
+      "name": "Williams"
+    },
+    {
+      "name": "Brown"
+    },
+    {
+      "name": "Jones"
+    },
+    {
+      "name": "Miller"
+    },
+    {
+      "name": "Bailey"
+    },
+    {
+      "name": "Fitzgerald"
+    },
+    {
+      "name": "Doyle"
+    },
+    {
+      "name": "Morton"
+    },
+    {
+      "name": "Parsons"
+    },
+    {
+      "name": "Frank"
+    },
+    {
+      "name": "Hancock"
+    },
+    {
+      "name": "Mckenzie"
+    },
+    {
+      "name": "Serrano"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Name",
+      "surname": "Surname",
+      "description": "Description",
+      "activity": "Recently active on the feed"
+    },
+    {
+      "id": 2,
+      "name": "Name",
+      "surname": "Surname",
+      "description": "Description",
+      "activity": "Recently active on the feed"
+    },
+    {
+      "id": 3,
+      "name": "Name",
+      "surname": "Surname",
+      "description": "Description",
+      "activity": "Recently active on the feed"
+    },
+    {
+      "id": 4,
+      "name": "Name",
+      "surname": "Surname",
+      "description": "Description",
+      "activity": "Recently active on the feed"
+    },
+    {
+      "id": 5,
+      "name": "Name",
+      "surname": "Surname",
+      "description": "Description",
+      "activity": "Recently active on the feed"
+    },
+    {
+      "id": 6,
+      "name": "Name",
+      "surname": "Surname",
+      "description": "Description",
+      "activity": "Recently active on the feed"
+    }
+  ],
+  "recommendedJobs": [
+    {
+      "id": 1,
+      "name": "Company Name",
+      "descriptions":"Descriptions",
+      "location": "Baku, Baku Azerbaijan",
+      "activity": "2 days ago",
+      "applications": "3 applications"
+    },
+    {
+      "id": 2,
+      "name": "Company Name",
+      "descriptions": "Descriptions",
+      "location": "Baku, Baku Azerbaijan",
+      "activity": "3 week ago",
+      "applications": "17 applications"
+    },
+    {
+      "id": 3,
+      "name": "Company Name",
+      "descriptions": "Descriptions",
+      "location": "Baku, Baku Azerbaijan",
+      "activity": "1 days ago"
+    }
+  ],
+  "moreJobs": [
+    {
+      "id": 1,
+      "name": "Company Name",
+      "descriptions": "Descriptions",
+      "location": "Baku, Baku Azerbaijan",
+      "activity": "1 days ago"
+    },
+    {
+      "id": 2,
+      "name": "Company Name",
+      "descriptions": "Descriptions",
+      "location": "Baku, Baku Azerbaijan",
+      "activity": "6 days ago"
+    },
+    {
+      "id": 3,
+      "name": "Company Name",
+      "descriptions": "Descriptions",
+      "location": "Baku, Baku Azerbaijan",
+      "activity": "1 month ago"
+    },
+    {
+      "id": 4,
+      "name": "Company Name",
+      "descriptions": "Descriptions",
+      "location": "Baku, Baku Azerbaijan",
+      "activity": "2 week ago"
+    },
+    {
+      "id": 5,
+      "name": "Company Name",
+      "descriptions": "Descriptions",
+      "location": "Baku, Baku Azerbaijan",
+      "activity": "6 days ago"
+    },
+    {
+      "id": 6,
+      "name": "Company Name",
+      "descriptions": "Descriptions",
+      "location": "Baku, Baku Azerbaijan",
+      "activity": "4 days ago"
+    },
+    {
+      "id": 7,
+      "name": "Company Name",
+      "descriptions": "Descriptions",
+      "location": "Baku, Baku Azerbaijan",
+      "activity": "1 week ago"
+    },
+    {
+      "id": 8,
+      "name": "Company Name",
+      "descriptions": "Descriptions",
+      "location": "Baku, Baku Azerbaijan",
+      "activity": "5 days ago"
+    },
+    {
+      "id": 9,
+      "name": "Company Name",
+      "descriptions": "Descriptions",
+      "location": "Baku, Baku Azerbaijan",
+      "activity": "3 month ago"
+    },
+    {
+      "id": 10,
+      "name": "Company Name",
+      "descriptions": "Descriptions",
+      "location": "Baku, Baku Azerbaijan",
+      "activity": "8 month ago"
+    }
+  ],
+  "notifications": [
+    {
+      "id": 1,
+      "descriptions": "All of a sudden, Apple is downplaying its success. Here's the news behind the company's shift in attitude.",
+      "activity": "1h"
+    },
+    {
+      "id": 2,
+      "descriptions": "All of a sudden, Apple is downplaying its success. Here's the news behind the company's shift in attitude.",
+      "activity": "6h"
+    },
+    {
+      "id": 3,
+      "descriptions": "All of a sudden, Apple is downplaying its success. Here's the news behind the company's shift in attitude.",
+      "activity": "1h"
+    },
+    {
+      "id": 4,
+      "descriptions": "All of a sudden, Apple is downplaying its success. Here's the news behind the company's shift in attitude.",
+      "activity": "2h"
+    },
+    {
+      "id": 5,
+      "descriptions": "All of a sudden, Apple is downplaying its success. Here's the news behind the company's shift in attitude.",
+      "activity": "6h"
+    },
+    {
+      "id": 6,
+      "descriptions": "All of a sudden, Apple is downplaying its success. Here's the news behind the company's shift in attitude.",
+      "activity": "4h"
+    },
+    {
+      "id": 7,
+      "descriptions": "All of a sudden, Apple is downplaying its success. Here's the news behind the company's shift in attitude.",
+      "activity": "1h"
+    },
+    {
+      "id": 8,
+      "descriptions": "All of a sudden, Apple is downplaying its success. Here's the news behind the company's shift in attitude.",
+      "activity": "5h"
+    },
+    {
+      "id": 9,
+      "descriptions": "All of a sudden, Apple is downplaying its success. Here's the news behind the company's shift in attitude.",
+      "activity": "3h"
+    },
+    {
+      "id": 10,
+      "descriptions": "All of a sudden, Apple is downplaying its success. Here's the news behind the company's shift in attitude.",
+      "activity": "1h"
+    },
+    {
+      "id": 11,
+      "descriptions": "All of a sudden, Apple is downplaying its success. Here's the news behind the company's shift in attitude.",
+      "activity": "6h"
+    },
+    {
+      "id": 12,
+      "descriptions": "All of a sudden, Apple is downplaying its success. Here's the news behind the company's shift in attitude.",
+      "activity": "1h"
+    },
+    {
+      "id": 13,
+      "descriptions": "All of a sudden, Apple is downplaying its success. Here's the news behind the company's shift in attitude.",
+      "activity": "2h"
+    },
+    {
+      "id": 14,
+      "descriptions": "All of a sudden, Apple is downplaying its success. Here's the news behind the company's shift in attitude.",
+      "activity": "6h"
+    },
+    {
+      "id": 15,
+      "descriptions": "All of a sudden, Apple is downplaying its success. Here's the news behind the company's shift in attitude.",
+      "activity": "4h"
+    },
+    {
+      "id": 16,
+      "descriptions": "All of a sudden, Apple is downplaying its success. Here's the news behind the company's shift in attitude.",
+      "activity": "1h"
+    },
+    {
+      "id": 17,
+      "descriptions": "All of a sudden, Apple is downplaying its success. Here's the news behind the company's shift in attitude.",
+      "activity": "5h"
+    },
+    {
+      "id": 18,
+      "descriptions": "All of a sudden, Apple is downplaying its success. Here's the news behind the company's shift in attitude.",
+      "activity": "3h"
+    },
+    {
+      "id": 19,
+      "descriptions": "All of a sudden, Apple is downplaying its success. Here's the news behind the company's shift in attitude.",
+      "activity": "3h"
+    },
+    {
+      "id": 20,
+      "descriptions": "All of a sudden, Apple is downplaying its success. Here's the news behind the company's shift in attitude.",
+      "activity": "3h"
+    }
+  ]
+}
